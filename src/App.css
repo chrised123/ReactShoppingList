@@ -1,0 +1,9 @@
+.layout {
+  margin: auto;
+  max-width: 900px;
+  background: transparent;
+  margin-top: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
