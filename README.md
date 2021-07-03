@@ -14,7 +14,7 @@ This project is a personal project created by me. The goal of this app is me lea
 
 ### Future plans include
 
-- adding the swipe functionality - one side is important toggle and the other side is removal
+- ~~adding the swipe functionality - one side is important toggle and the other side is removal~~
 - introducing an image search based on the text (similar to google shopping list)
 - more features? maybe a unit indicator and price predictor
 - redux or mobx
