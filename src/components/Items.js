@@ -1,14 +1,14 @@
 import React from 'react';
-import { Space } from 'antd';
 import Item from './Item';
+import { SwipeableList } from '@sandstreamdev/react-swipeable-list';
 
 const Items = ({ list, deleteItem, toggleImportant }) => {
   return (
-    <Space direction="vertical" style={{ width: "100%" }}>
+    <SwipeableList>
       {list.map((item, index) => (
         <Item item={item} key={index} deleteItem={() => deleteItem(index)} toggleImportant={() => toggleImportant(index)}/>
       ))}
-    </Space>
+    </SwipeableList>
   );
 }
 

@@ -1,0 +1,21 @@
+.swipeable-list-item {
+  margin-bottom: 10px;
+}
+
+.swipe-item {
+  background-color: #2980b9;
+  height: 100%;
+  width: 100%;
+}
+
+.swipe-item.item-right {
+  text-align: right;
+  background-color: #c0392b;
+}
+
+.swipe-item .swipe-icon {
+  font-size: 20px;
+  padding: 9px 15px 0;
+  color: #ecf0f1;
+  font-weight: 900;
+}

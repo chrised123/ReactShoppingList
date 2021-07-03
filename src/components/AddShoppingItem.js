@@ -15,16 +15,19 @@ const AddShoppingItem = ({ addItem }) => {
   const nameInput = React.useRef(null);
 
   const handleSubmit = (formValue) => {
-    value.title = formValue.title;
-    addItem(value);
-    setValue({
-      title: '',
-      isImportant: false
-    });
-    form.resetFields();
-    nameInput.current.focus({
-      cursor: 'start',
-    });
+    if (formValue.title) {
+      console.log('formValue');
+      value.title = formValue.title;
+      addItem(value);
+      setValue({
+        title: '',
+        isImportant: false
+      });
+      form.resetFields();
+      nameInput.current.focus({
+        cursor: 'start',
+      });
+    }
   };
 
   return (
@@ -39,7 +42,7 @@ const AddShoppingItem = ({ addItem }) => {
             </Col>
             <Col offset={1} span={5}>
               <Form.Item>
-                <Button type="primary" shape="round" icon={<PlusOutlined />} size="large" htmlType="submit"/>
+                <Button type="primary" shape="round" icon={<PlusOutlined />} size="large" style={{ width: "100%" }} htmlType="submit"/>
               </Form.Item>
             </Col>
           </Row>
