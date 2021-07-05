@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+https://sh0ppinglist.herokuapp.com
+
 > This might sound like google shopping list with extra steps.
 > But, let's face it. I am neither creative nor inventive (I don't know how that's different)
 
@@ -15,6 +17,7 @@ This project is a personal project created by me. The goal of this app is me lea
 ### Future plans include
 
 - ~~adding the swipe functionality - one side is important toggle and the other side is removal~~
+- ~~dockerize it~~
 - introducing an image search based on the text (similar to google shopping list)
 - more features? maybe a unit indicator and price predictor
 - redux or mobx
